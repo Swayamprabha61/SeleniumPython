@@ -1,0 +1,62 @@
+/html[1]/body[1]/div[2]/div[2]/div[3]/div[1]/div[1]/div[1]/div[1]/div[3]/form[1]/ul[1]/li[1]/div[1]/input[1]
+absolute xpath
+
+#login-password   ->css selector
+login-password      ->id
+password            ->name
+//input[@id='login-password']       ->xpath(relative)
+document.querySelector("#login-password")  ->js path
+"Password"    ->test rigor path
+
+
+ python -m pytest tests/test_pgm1.py
+
+test_proj2katalon_appointment.py
+
+Important topics are yet to learn
+----------------------------------
+.web Tables
+.Action Chains
+.Windows
+.Java Script Executor
+.SVG
+.Calendar
+.Data Driven Testing
+.Page Object Model
+.Frameworks
+.AWS and selenium Grid Run
+
+
+awesomeqa.com/hr/web/index.php/pim/viewEmployeeList  - find Xpath
+
+#//div[@role='table']/div[2]/div[9]/div[1]/div[4]
+
+fp - //div[@role ='table']/div[2]/div[
+value - 1-9
+sp - ']/div[1]/div['
+value - 1-9
+lp - ']'
+
+pip install selenium==4.17.2
+pip show selenium
+
+add employee
+2)create a job record
+3)job - employee status [working , terminated, not joined]
+4)pim - you can see the added job status
+all the emp who are terminated
+#for i in range(1, 10)
+# //div[@role = 'table']/div[2]/div[i]/div[1]/div[3]/following-sibling::div[3]
+
+# //div[@role = 'table']/div[2]/div[1]/div[1]/div[3]/preceding-sibling::div[0]  -> want to click checkbox
+
+//div[@role = 'table']/div[2]/div[i]/div[1]/div[3]/following-sibling::div[6]/div/button[2] -- click on  aman
+
+******************************************
+ActionChain Class
+**************************************
+awesomeqa.com/practice.html
+
+awesomeqa.com/selenium/mouse_interaction.html
+
+spicejet.com
